@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lbp-statement-reader"
+version = "0.1.0"
+description = "Program to translate PDF bank account statement from LaBanquePostale to data CSV"
+authors = ["Pierre-Loic FELTER"]
+readme = "README.md"
+packages = [{include = "lbp_statement_reader"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
